@@ -1,0 +1,6 @@
+@SimpleTask.Server_HostAddress = http://localhost:5012
+
+GET {{SimpleTask.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

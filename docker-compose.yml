@@ -1,0 +1,37 @@
+version: "3.4"
+services:
+    appserver:
+        build: ./SimpleTask.Server
+        container_name: simpletask_server
+        ports:
+            - "8080:8080"
+        depends_on:
+            - simpletask_postgres_server
+        networks:
+            - ptfintech_nw
+    appclient:
+        build: ./Client
+        container_name: simpletask_client
+        ports:
+            - "8000:8000"
+        depends_on:
+            - appserver
+        networks:
+            - ptfintech_nw
+    simpletask_postgres_server:
+        image: postgres:16.3
+        container_name: simpletask_postgres_server
+        restart: "always"
+        healthcheck:
+            interval: 2s
+            timeout: 20s
+            retries: 10
+        environment:
+           POSTGRES_PASSWORD: postgres
+        networks:
+            - ptfintech_nw
+
+volumes:
+    ptfintech_data:
+networks:
+  ptfintech_nw:

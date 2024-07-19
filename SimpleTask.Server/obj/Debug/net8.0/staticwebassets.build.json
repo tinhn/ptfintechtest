@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "i8gSMrNAKhkc6Cs8Lmf+mLcBf6DDZNlJsIDjsU1SEvQ=",
+  "Source": "SimpleTask.Server",
+  "BasePath": "_content/SimpleTask.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

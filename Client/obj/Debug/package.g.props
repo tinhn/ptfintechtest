@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">todo-frontend</PackageJsonName>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.0</PackageJsonVersion>
+    <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
+    <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">vite</PackageJsonScriptsDev>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0</PackageJsonScriptsLint>
+    <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
+    <PackageJsonDependenciesChakraUiIcons Condition="$(PackageJsonDependenciesChakraUiIcons) == ''">^2.0.19</PackageJsonDependenciesChakraUiIcons>
+    <PackageJsonDependenciesChakraUiReact Condition="$(PackageJsonDependenciesChakraUiReact) == ''">^2.7.0</PackageJsonDependenciesChakraUiReact>
+    <PackageJsonDependenciesEmotionReact Condition="$(PackageJsonDependenciesEmotionReact) == ''">^11.11.1</PackageJsonDependenciesEmotionReact>
+    <PackageJsonDependenciesEmotionStyled Condition="$(PackageJsonDependenciesEmotionStyled) == ''">^11.11.0</PackageJsonDependenciesEmotionStyled>
+    <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.4.0</PackageJsonDependenciesAxios>
+    <PackageJsonDependenciesFramerMotion Condition="$(PackageJsonDependenciesFramerMotion) == ''">^10.12.16</PackageJsonDependenciesFramerMotion>
+    <PackageJsonDependenciesGulp Condition="$(PackageJsonDependenciesGulp) == ''">^5.0.0</PackageJsonDependenciesGulp>
+    <PackageJsonDependenciesGulpSass Condition="$(PackageJsonDependenciesGulpSass) == ''">^5.1.0</PackageJsonDependenciesGulpSass>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.2.0</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.2.0</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactHotToast Condition="$(PackageJsonDependenciesReactHotToast) == ''">^2.4.1</PackageJsonDependenciesReactHotToast>
+    <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">^6.11.2</PackageJsonDependenciesReactRouterDom>
+    <PackageJsonDependenciesSass Condition="$(PackageJsonDependenciesSass) == ''">^1.62.1</PackageJsonDependenciesSass>
+    <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^18.0.37</PackageJsonDevdependenciesTypesReact>
+    <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">^18.0.11</PackageJsonDevdependenciesTypesReactDom>
+    <PackageJsonDevdependenciesVitejsPluginReactSwc Condition="$(PackageJsonDevdependenciesVitejsPluginReactSwc) == ''">^3.0.0</PackageJsonDevdependenciesVitejsPluginReactSwc>
+    <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^8.38.0</PackageJsonDevdependenciesEslint>
+    <PackageJsonDevdependenciesEslintPluginReact Condition="$(PackageJsonDevdependenciesEslintPluginReact) == ''">^7.32.2</PackageJsonDevdependenciesEslintPluginReact>
+    <PackageJsonDevdependenciesEslintPluginReactHooks Condition="$(PackageJsonDevdependenciesEslintPluginReactHooks) == ''">^4.6.0</PackageJsonDevdependenciesEslintPluginReactHooks>
+    <PackageJsonDevdependenciesEslintPluginReactRefresh Condition="$(PackageJsonDevdependenciesEslintPluginReactRefresh) == ''">^0.3.4</PackageJsonDevdependenciesEslintPluginReactRefresh>
+    <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">^4.3.9</PackageJsonDevdependenciesVite>
+  </PropertyGroup>
+</Project>
